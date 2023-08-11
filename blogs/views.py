@@ -12,5 +12,8 @@ def home_page(request):
 def gene_page(request):
     return render (request, 'blogs/generic.html') 
 
+def travel(request):
+    return render (request, 'blogs/travel.html')
+
 def ment(request):
-    return render (request, 'blogs/element.html') 
+    return render (request, 'blogs/elements.html') 
